@@ -22,7 +22,6 @@ def main():
 	
 	# Get total line count and store it in numLines
 	numLines = sum(1 for line in open("dictionary.txt", "r"))
-	#print(numLines)
 	
 	# Instantiate the secure SystemRandom class.
 	s = secrets.SystemRandom()

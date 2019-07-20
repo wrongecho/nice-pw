@@ -49,7 +49,7 @@ def main():
 	elif numLocation == 2:
 		randomString = wordOne + wordTwo + str(randDigits) + wordThree + wordFour
 	elif numLocation == 3:
-		randomString = wordOne + wordTwo + wordThree + wordFour
+		randomString = wordOne + wordTwo + wordThree + str(randDigits) + wordFour
 	else:
 		randomString = wordOne + wordTwo + wordThree + wordFour + str(randDigits)
 	
